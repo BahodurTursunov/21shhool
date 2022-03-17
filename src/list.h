@@ -1,7 +1,7 @@
 #ifndef SRC_LIST_H_
 #define SRC_LIST_H_
-#include "door_struct.h"
 
+#include "door_struct.h"
 struct node {
     struct door dr;
     struct node *next;
